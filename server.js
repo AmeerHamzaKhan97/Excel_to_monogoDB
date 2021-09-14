@@ -7,6 +7,8 @@
 // // app.use(express.urlencoded());
 // app.use(cors());
 
+// ya code se file save hore public mai
+
 // let storage = multer.diskStorage({
 //   destination: function (req, file, cb) {
 //     cb(null, "public");
@@ -50,6 +52,9 @@ const app = express();
 
 app.use(cors());
 
+// ya modify code is mai filename not found error 
+
+
 // let storage = multer.diskStorage({
 //   destination: function (req, file, cb) {
 //     cb(null, "public");
@@ -72,6 +77,8 @@ app.use(cors());
 //     return res.status(200).send(req.file);
 //   });
 // });
+
+// ya code mai no such file or directory aara eror
 
 global.__basedir = __dirname;
 
