@@ -44,7 +44,7 @@ const cors = require("cors");
 
 let MongoClient = require("mongodb").MongoClient;
 let url =
-  "mongodb+srv://ameerkhan:7208270296@cluster0.vvkuk.mongodb.net/Excel_files";
+  "mongodb+srv://<username>:<pasword>@cluster0.vvkuk.mongodb.net/<collectionName>";
 
 const excelToJson = require("convert-excel-to-json");
 
