@@ -10,3 +10,49 @@ nav{
   background-color: #CAC069;
 }
 
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload .fas 
+{
+    width: 80px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.image-upload{
+  text-align: center;
+  margin-top: 100px;
+}
+
+button{
+  padding: 5px 23px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #6AA84F;
+  color: white;
+  margin-top: 5px;
+
+}
+
+h5{
+  margin: 30px 0 0 60px;
+}
+
+.result_sucess{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.top-class{
+  text-align: center;
+  margin-top: 100px;
+}
+
+h4{
+  color: green;
+}
